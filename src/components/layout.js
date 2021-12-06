@@ -32,7 +32,6 @@ const Layout = ({ PageTitle, children }) => {
             <main>
                 <h1 className={heading}>{ PageTitle }</h1>
                 { children }
-                <p>Descripiton: { data.site.siteMetadata.description }</p>
             </main>
         </div>
     )
